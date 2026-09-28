@@ -1,0 +1,10 @@
+subset,xi,metric,n,spearman_rho
+principal_positive_finite_range,all_finite,H_error,2340,0.6061885326293842
+principal_positive_finite_range,all_finite,distribution_error,2340,0.5551180699532505
+principal_positive_finite_range,all_finite,Q_A_error,2340,0.5730286255861267
+principal_positive_finite_range,0.05,H_error,1170,0.7742648616675116
+principal_positive_finite_range,0.05,distribution_error,1170,0.7375679923642922
+principal_positive_finite_range,0.05,Q_A_error,1170,0.7752809056111929
+principal_positive_finite_range,0.1,H_error,1170,0.3887380539640495
+principal_positive_finite_range,0.1,distribution_error,1170,0.4370741704623898
+principal_positive_finite_range,0.1,Q_A_error,1170,0.2713715782181754

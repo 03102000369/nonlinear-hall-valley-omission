@@ -1,0 +1,54 @@
+\section{Sector elimination and observable-specific omission}
+At zero temperature, let $i$ denote a node on an occupied conduction contour and $w_i>0$ its Fermi-surface integration weight. Write the linearized displacement as $\ell_i$ and use weighted coordinates
+\begin{equation}
+g_i=\sqrt{w_i}\ell_i,\quad b_i=\sqrt{w_i}v_{x,i},\quad
+h_i=\sqrt{w_i}\Omega_{z,i}.
+\end{equation}
+For elastic, reversible Born rates $\mathcal W_{ij}=\mathcal W_{ji}\geq0$, the symmetrized collision operator is
+\begin{equation}
+L_{ij}=\delta_{ij}\sum_k\mathcal W_{ik}w_k
+-\sqrt{w_iw_j}\mathcal W_{ij}.\label{eq:L}
+\end{equation}
+It is positive semidefinite and conserves charge. The drive and Hall weight are odd under time reversal, so their response can be solved in the invariant odd subspace, excluding the even conserved charge modes without adding a relaxation rate. In this space
+\begin{equation}
+(L+i\omega I)g=b,\qquad H=h^Tg.\label{eq:response}
+\end{equation}
+With $E_x(t)=\operatorname{Re}(E_0e^{i\omega t})$, the second-harmonic coefficient in units $e=\hbar=1$ is $\chi_{yxx}=-H/2$. DC results below mean its $\omega\to0$ limit. The transpose in Eq.~\eqref{eq:response} is bilinear, not a complex-conjugate inner product.
+
+Partition the projected operator and drive into Hall-active ($A$) and passive ($P$) sectors:
+\begin{equation}
+\begin{pmatrix}A&B\\B^T&F\end{pmatrix}
+\begin{pmatrix}g_A\\g_P\end{pmatrix}
+=\begin{pmatrix}b_A\\b_P\end{pmatrix},\qquad h_P=0.
+\end{equation}
+The condition $h_P=0$ imposes neither $b_P=0$ nor $B=0$: a Hall-silent sector can be driven and collision coupled. Here $A,F$ include $i\omega I$ when needed. Eliminating the passive displacement gives
+\begin{align}
+\Sigma_P&=BF^{-1}B^T,&\zeta_P&=BF^{-1}b_P,\\
+M&=A-\Sigma_P,&g_A&=M^{-1}(b_A-\zeta_P).\label{eq:schur}
+\end{align}
+The sector changes both the active relaxation operator and its effective drive. Retaining only its scattering-out rate would miss the second effect and the return term $\Sigma_P$.
+
+The omission reference removes every active--passive scattering edge, including its diagonal loss. Let $A_{\rm ref}$ be the resulting active operator and
+\begin{equation}
+g_{A0}=A_{\rm ref}^{-1}b_A,\qquad H_0=h_A^Tg_{A0}.
+\end{equation}
+This is a microscopic active-only problem, not a lifetime fit. With $\Delta_A=A-A_{\rm ref}$, subtraction yields
+\begin{align}
+f&=(\Delta_A-\Sigma_P)g_{A0}+\zeta_P,\\
+g_A-g_{A0}&=-M^{-1}f,\\
+\Delta H&=H-H_0=-h_A^TM^{-1}f.\label{eq:exacterror}
+\end{align}
+Equation~\eqref{eq:exacterror} shows explicitly why $h_P=0$ does not imply $\Delta H=0$. Passive kinetics is sampled indirectly through the changed active distribution. Conversely, a large displacement change need not cause a large Hall error if it has little overlap with $h_A$.
+
+We define the relative omission using the full response:
+\begin{equation}
+e_H=\frac{|H-H_0|}{|H|}.\label{eq:error}
+\end{equation}
+A sector is safe to omit at tolerance $\epsilon$ when $e_H\leq\epsilon$, provided the denominator is well conditioned. An error exceeding unity is possible if the retained response is much larger than the full one. Ratios with nearly vanishing $H$ or $H_0$ must instead be described by absolute errors; no such ambiguous principal-map points occur here.
+
+For completeness, $M^Tz=h_A$ gives the exact signed identity $\Delta H=-z^Tf$ and sufficient bounds
+\begin{equation}
+|\Delta H|\leq\norm z\norm f
+\leq\frac{\norm{h_A}\norm f}{s_{\min}(M)}.
+\end{equation}
+Any absolute bound $E<|H_0|$ implies $e_H\leq E/(|H_0|-E)$. Once the exact $z$ and $f$ are available, however, their contraction already gives the correction. These inequalities support conservative decisions; they are not the central physical result or a demonstrated dense-solver acceleration. Their coverage and cost are assessed in the Supplement.

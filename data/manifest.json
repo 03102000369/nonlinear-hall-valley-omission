@@ -1,0 +1,208 @@
+{
+  "data/processed/certificate_decision_utility.csv": {
+    "description": "Supplement certificate table and coverage",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "5c0375c30eed7c66dece89897acdb56e20bb210b602b29a695e41d8fe90223ac",
+    "rows": 24,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_basis_transformation.csv": {
+    "description": "Raw-to-orthonormal mode transform; Sec. III and Supplement mode definitions",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "9e1b275dd905c6676ebc9c7edb48797db3fedf64de0b9635350e88cc212f3663",
+    "rows": 1824,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_cancellation_statistics.csv": {
+    "description": "Main Table I; abstract and conclusion; all-grid Supplement table",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "a90da2b966ff0186bfd323160c3d57246520b9c953b982d61f7e119763c87bbd",
+    "rows": 30,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_convergence_summary.csv": {
+    "description": "Supplement convergence summary, grouped maxima without historical per-point ledger",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "ec0a72b74c1ca5a3f12e397774600d1f6337f9657ceb434198deb115a6f6fc2e",
+    "rows": 41,
+    "selection": [
+      "aggregate by observable, metric, threshold; count and maximum of all original rows",
+      "aggregate by observable, metric, threshold; count and maximum of all original rows",
+      "aggregate by observable, metric, threshold; count and maximum of all original rows"
+    ]
+  },
+  "data/processed/final_invariant_subspace_residual.csv": {
+    "description": "Main Fig. 3; closure and error diagnostics",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "983971cb2789609610c0d4cd026d675d371ca0d15d2104b72b63dee38e13a754",
+    "rows": 3905,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_leakage_error_correlations.csv": {
+    "description": "Sec. V.B descriptive rank correlations",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "629d426a1ba5285ba38dec11c9fea2ab9841efa0f2c863a09199663437d85e46",
+    "rows": 9,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_leakage_spectrum.csv": {
+    "description": "Main Fig. 3d; Fig. S1 signed collision-mode error and weights",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "71c248c5882ae6463306e7677dde34e9ba9828a212ce33d1336d933840e97fb7",
+    "rows": 2048,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_leakage_summary.csv": {
+    "description": "Sec. V.B spectral and primal/dual diagnostics",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "92a4914e3088fb6b0c3c5281175b6ec49fc58d34270dce3052edd19c4245a450",
+    "rows": 4,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_mass_scaling.csv": {
+    "description": "Sec. V.E; Fig. S3 and mass table",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "b0ae701e5c570a35d0a28a73f7bdd0ad00337c8344906e00047563ff0778feea",
+    "rows": 64,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_mode_ablation.csv": {
+    "description": "Main Fig. 2; Sec. V.A and extended ablation table",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "23d7534de0c539eb589c669f1419f3b1a86f3f5361075495a2ba603583036d7b",
+    "rows": 3905,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_mode_characterization.csv": {
+    "description": "Main Fig. 1 / Sec. III; physical symmetry and overlap definitions",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "de8dbb99913279850a56bc8e9c45e7f6042bb4ff27e711d1db8fd280bf8bc2f3",
+    "rows": 456,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_mode_decision_agreement.csv": {
+    "description": "Sec. V.A projection-based omission agreement",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "27cdeb596c8d1eddb3e898989a960b8377b2a5189a34036f56e5ae93ad7b8f37",
+    "rows": 12,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_reduced_mode_coefficients.csv": {
+    "description": "Main Fig. 4; Sec. V.C; physical forcing and stiffness",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "aa748bd68ecd7e2ec1693981770a57362b144542ab60b8793708b4c9dbf7b72e",
+    "rows": 4,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_reduced_model_validation.csv": {
+    "description": "Sec. V.A; aggregate projection errors",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "dafc551c86068c3d9b92c02c58d8000b210c0b45e87951f4e56792788498f4a4",
+    "rows": 72,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_tolerance_cancellation.csv": {
+    "description": "Main Fig. 5; fixed-budget decision map",
+    "run_id": "20260919T021436Z-40be24e6",
+    "sha256": "8a1bce731f934ff299ec166bb0a13064904fe3b990b994041cede12b81f99782",
+    "rows": 10800,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/gauge_invariance.csv": {
+    "description": "Supplement basis covariance",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "9dfd9f793f6ae9c7d5e401c95e5f4e5d93d7971c9ee474ba0f0306ddd2cac534",
+    "rows": 75,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/internal_structure_robustness.csv": {
+    "description": "Supplement texture and kernel controls",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "172023f8445fe7a8b184284bb2826410cd1a9093b3d01fb26175a9f3b6efd73d",
+    "rows": 35,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/measurement_level_omission.csv": {
+    "description": "Sec. V.F and Supplement open-circuit algebra; selected 50 rows",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "e4eb6a1d8b97b4d0ca686c507c32974d9d09ea6b5879ce034c8c4d08d01e26db",
+    "rows": 50,
+    "selection": [
+      "sample != 'principal-map'; all columns, original decimal strings"
+    ]
+  },
+  "data/processed/reduction_cost_benchmark.csv": {
+    "description": "Supplement dense solve / certificate cost assessment",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "c32bb936f9d5562bf39a65e9089d3ddd20d71447d4f5ca684f942541c40614bc",
+    "rows": 20,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/successive_resolution.csv": {
+    "description": "Fig. S4; successive angular-grid convergence",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "60a3e8d66b51078916321d05041f8cfcdafc480481398988fec6f3b4d5bba602",
+    "rows": 150,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/weak_coupling_intervals.csv": {
+    "description": "Supplement sampled weak-coupling passing intervals",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "99b48d226a16a89804a407091a3791dce5abf064ac7b60cc0f1dcd6dcda8f550",
+    "rows": 144,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/weak_coupling_remainder.csv": {
+    "description": "Fig. S2; weak-coupling remainder controls",
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "b6bd33e65bdf93949d38bf143f9b283231a25f704000514bd8e6504bb99576b3",
+    "rows": 1152,
+    "selection": [
+      "entire file"
+    ]
+  },
+  "data/processed/final_physical_validation_summary.csv": {
+    "description": "Sec. IV rate envelope; Supplement physical validity and solver extrema",
+    "rows": 7,
+    "run_id": "20260917T094513Z-083977ff",
+    "sha256": "a04ede177131074a56f0a28c37e72cb189e5a8a19c3e8ef87290cc2766c3004d"
+  }
+}

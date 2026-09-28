@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Citation metadata pending confirmed authorship and deposition. Use this title and the scientific run fingerprint in DATA_MANIFEST.md for internal identification. See HUMAN_TODO.md for the remaining publication metadata."
+title: "When Can Hall-Silent Valleys Be Neglected in Anomalous-Velocity Nonlinear Hall Transport?"
+type: software
+repository-code: "https://github.com/03102000369/nonlinear-hall-valley-omission"
+version: 1.1.0
+license: 0BSD
+abstract: "A four-valley anomalous-velocity transport model with exact sector elimination, a physical current/population reduction, physical M1--M4 ablation, invariant-subspace leakage, fixed-budget cancellation and finite-mass valley-polarization controls."
+keywords:
+  - nonlinear Hall transport
+  - multivalley Boltzmann kinetics
+  - physical mode reduction
+  - observable-specific omission
+# Author names, preferred manuscript citation and deposition fields are intentionally
+# absent until confirmed; see HUMAN_TODO.md. No author identity is inferred.
+
+# DOI_PENDING: add verified deposition metadata after public release.

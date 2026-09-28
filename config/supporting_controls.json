@@ -1,0 +1,16 @@
+{
+  "source_run": "20260917T094513Z-083977ff",
+  "resolution_comparison": [128, 256],
+  "successive_resolutions": [48, 64, 96, 128, 192, 256],
+  "rotation_angles_pi": [0, 0.16666666666666666, 0.3333333333333333, 0.5],
+  "weak_kernels": ["gaussian", "lorentzian"],
+  "weak_deltas": [0.4, 0.8, 1.2],
+  "weak_xis": [0, 0.05, 0.1],
+  "weak_eta_log10": [-5, 0, 31],
+  "weak_frequency_gap_fractions": [0, 0.01],
+  "measurement_selection": "sample != principal-map; central eta sweep and finite-frequency representatives",
+  "measurement_frequency_gap_fractions": [0.001, 0.01],
+  "cost_resolutions": [64, 128, 256, 512],
+  "cost_repeats": 5,
+  "certificate_tolerances": [0.01, 0.05, 0.1, 0.2]
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nonlinear-hall-transport"
+version = "1.1.0"
+description = "Omission criteria for Hall-silent conducting valleys in a coupled semiclassical model"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "0BSD"
+license-files = ["LICENSE"]
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8", "threadpoolctl>=3.2"]
+keywords = ["nonlinear Hall effect", "Boltzmann transport", "Berry curvature", "reproducible research"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Physics"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = ["--ignore-glob=* [0-9]*.py"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

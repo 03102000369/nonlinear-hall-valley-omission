@@ -1,0 +1,168 @@
+{
+  "canonical_run": "20260919T021436Z-40be24e6",
+  "comparison": [
+    {
+      "byte_identical": true,
+      "cells": 394405,
+      "dataset": "final_mode_ablation.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 3905,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 109340,
+      "dataset": "final_invariant_subspace_residual.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 3905,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 216000,
+      "dataset": "final_tolerance_cancellation.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 10800,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 10944,
+      "dataset": "final_basis_transformation.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 1824,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 7752,
+      "dataset": "final_mode_characterization.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 456,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 1536,
+      "dataset": "final_mass_scaling.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 64,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": false,
+      "cells": 152,
+      "dataset": "final_reduced_mode_coefficients.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 4,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 240,
+      "dataset": "final_cancellation_statistics.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 30,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 648,
+      "dataset": "final_reduced_model_validation.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 72,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 45,
+      "dataset": "final_leakage_error_correlations.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 9,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 72,
+      "dataset": "final_mode_decision_agreement.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 12,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 104,
+      "dataset": "final_leakage_summary.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 4,
+      "status": "PASS"
+    },
+    {
+      "byte_identical": true,
+      "cells": 45056,
+      "dataset": "final_leakage_spectrum.csv",
+      "max_absolute_difference": 0.0,
+      "rows": 2048,
+      "status": "PASS"
+    }
+  ],
+  "configuration_sha256": "a984e2ca8a7c467a14d203bc1896202963ae22803c4ac59f4e5677ff234d8696",
+  "invariant_checks": 22133,
+  "positive_points": 3510,
+  "principal_points": 3600,
+  "status": "PASS",
+  "wall_seconds": 24.41157912503695,
+  "independent_copy": true,
+  "unit_tests_passed": 40,
+  "fresh_validation_checks": 46,
+  "included_dataset_hashes_passed": 23,
+  "main_pages": 11,
+  "supplement_pages": 12,
+  "main_figure_comparison": [
+    {
+      "figure": "figure_1_physical_modes.png",
+      "canonical_sha256": "f804d0c4a9f6a82a01392724eebca29c9bbcd834f33e5baaf256f7fd9bd18b62",
+      "release_sha256": "f804d0c4a9f6a82a01392724eebca29c9bbcd834f33e5baaf256f7fd9bd18b62",
+      "byte_identical": true
+    },
+    {
+      "figure": "figure_2_ablation.png",
+      "canonical_sha256": "7115742c72a3e5a3ce6482f7469d57c2c0c387c32d4f0f4bb426591c4d06e234",
+      "release_sha256": "7115742c72a3e5a3ce6482f7469d57c2c0c387c32d4f0f4bb426591c4d06e234",
+      "byte_identical": true
+    },
+    {
+      "figure": "figure_3_leakage.png",
+      "canonical_sha256": "13a7c1068e6eb2120a7f59e41dffdf31933b50a82d2ccca946234ed0d82aef4f",
+      "release_sha256": "13a7c1068e6eb2120a7f59e41dffdf31933b50a82d2ccca946234ed0d82aef4f",
+      "byte_identical": true
+    },
+    {
+      "figure": "figure_4_scalar_shape.png",
+      "canonical_sha256": "70b4d2c9866e7c8610320a2f7479ecb65e67499260400b61b5ab8cc1eaad14d3",
+      "release_sha256": "70b4d2c9866e7c8610320a2f7479ecb65e67499260400b61b5ab8cc1eaad14d3",
+      "byte_identical": true
+    },
+    {
+      "figure": "figure_5_decision_map.png",
+      "canonical_sha256": "acff359498e98a46795dcc0c34715b1796c684927ed1ee36edabe9bc6ab60966",
+      "release_sha256": "acff359498e98a46795dcc0c34715b1796c684927ed1ee36edabe9bc6ab60966",
+      "byte_identical": true
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "BLAS_threads": 1
+  },
+  "original_preservation": {
+    "files": 10676,
+    "selected_source_hashes_verified": 57,
+    "path_set_and_sizes_unchanged": true,
+    "mtime_differences_below_nanoseconds": 1000,
+    "note": "Read-triggered cloud hydration rounded four submicrosecond timestamps; original content hashes match. No source write commands were issued."
+  }
+}

@@ -1,0 +1,44 @@
+\begin{table}[ht]\centering\small
+\begin{tabular}{llrrrr}\toprule
+Case & Model & Hall error (\%) & $\sigma_{xx}$ error (\%) & $Q_A$ error (\%) & Distribution (\%)\\\midrule
+Shape & M1 & 2.063 & 40.58 & 7.892 & 68.48\\
+Shape & M2 & 3.056 & 40.58 & 13.52 & 68.5\\
+Shape & M3 & 3.742e-14 & 1.839e-14 & 3.586e-14 & 1.021e-13\\
+Shape & M4 & 3.742e-14 & 1.839e-14 & 3.586e-14 & 1.012e-13\\
+Scalar & M1 & 31.92 & 63.22 & 6.142 & 66.85\\
+Scalar & M2 & 0.6807 & 62.98 & 53.84 & 67.04\\
+Scalar & M3 & 1.897e-13 & 1.383e-14 & 1.764e-13 & 1.031e-13\\
+Scalar & M4 & 1.897e-13 & 1.383e-14 & 1.764e-13 & 1.031e-13\\
+Matched range & M1 & 14.88 & 64.34 & 13.33 & 76.74\\
+Matched range & M2 & 2.515 & 64.31 & 29.69 & 76.79\\
+Matched range & M3 & 7.095 & 0.2498 & 6.942 & 4.75\\
+Matched range & M4 & 0.01207 & 0.02972 & 0.01221 & 1.406\\
+Weak & M1 & 0.01526 & 74.56 & 0.05638 & 98.2\\
+Weak & M2 & 0.03231 & 74.56 & 0.03932 & 98.2\\
+Weak & M3 & 0.09868 & 0.007634 & 0.09664 & 7.159\\
+Weak & M4 & 0.0001479 & 3.677e-06 & 0.0001482 & 0.01535\\
+Fixed-budget & M1 & 4.146 & 59.94 & 4.248 & 89.92\\
+Fixed-budget & M2 & 8.855 & 59.94 & 0.8816 & 89.92\\
+Fixed-budget & M3 & 16.87 & 0.4772 & 16.57 & 10.86\\
+Fixed-budget & M4 & 0.01062 & 0.03873 & 0.01152 & 1.894\\
+\bottomrule\end{tabular}
+\caption{Extended ordered ablation at the five fixed configurations. All errors use the full observable or weighted distribution norm as denominator. Tiny contact errors are roundoff. No monotonic Hall-error ordering is imposed.}\end{table}
+\begin{table}[ht]\centering\small
+\begin{tabular}{lrrrr}\toprule
+Kernel / range & Min. $\rho_{\rm rel}$ & Max. $\rho_{\rm rel}$ & Max. $\rho_{\rm abs}$ & Max. Hall error (\%)\\\midrule
+Gaussian / 0.00 & 6.36e-16 & 5.858e-15 & 1.841e-16 & 2.093e-13\\
+Gaussian / 0.05 & 0.006476 & 0.03148 & 0.0008126 & 0.01773\\
+Gaussian / 0.10 & 0.01512 & 0.06798 & 0.001163 & 0.3575\\
+Lorentzian / 0.00 & 6.36e-16 & 5.858e-15 & 1.841e-16 & 2.093e-13\\
+Lorentzian / 0.05 & 0.005365 & 0.02286 & 0.0006286 & 0.03517\\
+Lorentzian / 0.10 & 0.01099 & 0.04736 & 0.0009113 & 0.07926\\
+\bottomrule\end{tabular}
+\caption{Invariant residuals and M4 accuracy on the two-kernel grid, restricted to positive coupling. Contact entries coincide because the kernels are identical. Absolute residuals have collision-rate units; relative residuals are dimensionless.}\end{table}
+\begin{table}[ht]\centering\small
+\begin{tabular}{rrrrrr}\toprule
+Tolerance & Safe & Robust & Dependent & Unsafe & Dependent/safe (\%)\\\midrule
+1\% & 1500 & 929 & 571 & 2100 & 38.07\\
+5\% & 2032 & 1655 & 377 & 1568 & 18.55\\
+10\% & 2291 & 2155 & 136 & 1309 & 5.94\\
+\bottomrule\end{tabular}
+\caption{Supporting all-grid counts, including 90 decoupled controls: denominator 3600; undefined count zero. Dependent means cancellation-dependent under the fixed-budget test. The principal statistics in the main text exclude these controls.}\end{table}

@@ -1,0 +1,35 @@
+\section{Four-valley model and collision dynamics}
+\subsection{Bands and Hall readout}
+Each sector has time-reversed partners $s=\pm1$, centered at $\bm K_{A,s}=(6s,0)$ and $\bm K_{P,s}=(12s,0)$. Local momentum is $\bm q=\bm k-\bm K_{r,s}$. We use
+\begin{equation}
+\mathcal H_{r,s}(\bm q)=(E_r+st_rq_x)I
+-v_rq_y\sigma_x+v_rq_x\sigma_y+sm_r\sigma_z.
+\end{equation}
+The upper-band energy and Berry curvature are
+\begin{align}
+\varepsilon_{r,s}&=E_r+st_rq_x+d_r,\quad
+ d_r=\sqrt{m_r^2+v_r^2q^2},\\
+\Omega_{r,s}&=-\frac{s m_rv_r^2}{2d_r^3}.
+\end{align}
+The curvature convention is $\bm{\mathcal A}=i\langle u|\nabla_{\bm q}u\rangle$. We set $\mu=1.8$, $E_A=0$, $m_A=1$, $t_A=0.15$, $v_A=v_P=1$, and $t_P=0$. The passive occupation is $\delta_P=\mu-E_P$. Unless stated otherwise, $m_P=0$, so the passive contour conducts but has identically zero curvature. The symmetries permit a passive mass; Hall silence is an imposed band limit, not symmetry protection.
+
+The active and passive local cutoffs are $q<2.5$. Throughout the sampled domain $\delta_P=0.4$--$1.2$, the contours enclose their origins, stay separated and lie within the cutoffs. The active tilt allows a Hall response to an $x$-directed field. Both partners are retained: their equilibrium Hall integrals cancel, whereas their driven contributions can add. Figure~\ref{fig:model} distinguishes this readout from the collision architecture.
+
+
+
+\subsection{Disorder and the kinetic distinction}
+The collision rates are
+\begin{equation}
+\mathcal W_{ij}=\Gamma_0 a_{r_ir_j}
+ F_\xi(|\bm k_i-\bm k_j|^2)|u_i^\dagger u_j|^2,
+\label{eq:rates}
+\end{equation}
+where $a_{AA}=a_{PP}=1$, $a_{AP}=a_{PA}=\eta$, and $\Gamma_0=0.01$. Thus $\eta$ scales an intersector \emph{rate}, not a signed amplitude. The principal map uses $F_\xi(Q^2)=\exp(-\xi^2Q^2)$ with $\xi=0,0.05,0.10$. The mode-ablation comparison also uses $F_\xi(Q^2)=(1+\xi^2Q^2)^{-1}$. At $\xi=0$ the two kernels are identical.
+
+These rates follow from independent real Gaussian fields coupled to the two diagonal sector projectors and to an intersector hybridization matrix, all scalar in the common two-component internal basis. Their spectral covariances are proportional to $1,1,\eta$, respectively, times $F_\xi$. Valley projection supplies the full momentum transfer in Eq.~\eqref{eq:rates}; the Born energy delta function is absorbed in $w_i$. The Supplement gives the explicit construction and its assumptions. Positive radial kernels make the covariance realizable, but do not identify a particular material's defect ensemble.
+
+There are two distinct ways for this disorder to affect a Hall response. It can change how much of a current-like active distribution survives, and it can redistribute the occupation toward a different Hall-sensitive active pattern. Both processes can be present in the active-only problem. The question here is the additional change produced by coupling to the passive sector, with the same active bands and intrasector disorder held fixed.
+
+The principal map contains 3600 points, of which 3510 have positive coupling: 30 passive occupations, three ranges and 40 couplings including zero. Positive $\eta$ spans $10^{-3}$--10; each contour has $N=256$ nodes. Validation and convergence of the underlying transport solver are summarized in the Supplement. The rate envelope remains below 0.05 of the minimum interband gap. This establishes a scale hierarchy within the model, not a five-percent error bound or a justification for dropping other Hall channels.
+
+The additional kernel comparison uses five occupations $0.4,0.6,0.8,1.0,1.2$, three ranges and ten couplings for each kernel. Identical contact cases are counted once in summaries, giving 250 distinct points, including 225 at positive coupling. This fixed comparison tests the physical hierarchy without adjusting its columns.

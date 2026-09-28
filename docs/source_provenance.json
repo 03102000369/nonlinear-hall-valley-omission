@@ -1,0 +1,497 @@
+{
+  "canonical_run": {
+    "branch": "final-mode-ablation-revision",
+    "configuration": {
+      "hierarchy": [
+        "active_reference_current",
+        "active_valley_distortion",
+        "passive_current",
+        "passive_valley_population"
+      ],
+      "n": 256,
+      "spectral_cases": [
+        [
+          "weak",
+          "gaussian",
+          0.001,
+          0.4,
+          0.1
+        ],
+        [
+          "decision_cancellation",
+          "gaussian",
+          0.26366508987303583,
+          0.5103448275862069,
+          0.1
+        ],
+        [
+          "matched_gaussian",
+          "gaussian",
+          1.0,
+          1.2,
+          0.05
+        ],
+        [
+          "matched_lorentzian",
+          "lorentzian",
+          1.0,
+          1.2,
+          0.05
+        ]
+      ],
+      "tolerances": [
+        0.01,
+        0.05,
+        0.1
+      ]
+    },
+    "fingerprint": "e50af1a65e882f6b40ab4bfcd4ade35085579b6dd56ee1d95f5d74bae6be3453",
+    "git_commit": null,
+    "outputs": {
+      "processed/final_basis_transformation.csv": "9e1b275dd905c6676ebc9c7edb48797db3fedf64de0b9635350e88cc212f3663",
+      "processed/final_cancellation_statistics.csv": "a90da2b966ff0186bfd323160c3d57246520b9c953b982d61f7e119763c87bbd",
+      "processed/final_invariant_subspace_residual.csv": "983971cb2789609610c0d4cd026d675d371ca0d15d2104b72b63dee38e13a754",
+      "processed/final_leakage_error_correlations.csv": "629d426a1ba5285ba38dec11c9fea2ab9841efa0f2c863a09199663437d85e46",
+      "processed/final_leakage_spectrum.csv": "71c248c5882ae6463306e7677dde34e9ba9828a212ce33d1336d933840e97fb7",
+      "processed/final_leakage_summary.csv": "92a4914e3088fb6b0c3c5281175b6ec49fc58d34270dce3052edd19c4245a450",
+      "processed/final_mass_scaling.csv": "b0ae701e5c570a35d0a28a73f7bdd0ad00337c8344906e00047563ff0778feea",
+      "processed/final_mode_ablation.csv": "23d7534de0c539eb589c669f1419f3b1a86f3f5361075495a2ba603583036d7b",
+      "processed/final_mode_ablation_long.csv": "919ec738c81bad2d7eac94875ef9d5ea9df4cde65e100c842b7868fa7cac0805",
+      "processed/final_mode_characterization.csv": "de8dbb99913279850a56bc8e9c45e7f6042bb4ff27e711d1db8fd280bf8bc2f3",
+      "processed/final_mode_decision_agreement.csv": "27cdeb596c8d1eddb3e898989a960b8377b2a5189a34036f56e5ae93ad7b8f37",
+      "processed/final_reduced_mode_coefficients.csv": "aa748bd68ecd7e2ec1693981770a57362b144542ab60b8793708b4c9dbf7b72e",
+      "processed/final_reduced_model_validation.csv": "dafc551c86068c3d9b92c02c58d8000b210c0b45e87951f4e56792788498f4a4",
+      "processed/final_tolerance_cancellation.csv": "8a1bce731f934ff299ec166bb0a13064904fe3b990b994041cede12b81f99782",
+      "source_snapshot/config/mode_ablation.json": "19bf53afd97f1353d1382a4713a0e3182722fb1c0f7b5b11f7cc774174bf157d",
+      "source_snapshot/docs/final_revision_plan.md": "7727f18b1ec2c719ed02da04561e6fd0191a20f07c92b7d7720576a3a689228f",
+      "source_snapshot/scripts/mode_ablation_calculate.py": "62bc24fdc8fdf4b12a19e8b8b4322879e7a25b8b94d2c32e2135540e1d98bf22",
+      "source_snapshot/src/nonlinear_hall/core.py": "69c9a7a5bdf844a635b7ad846cb933bc160b6bb1ab7e06bea845b98f6864fd32",
+      "source_snapshot/src/nonlinear_hall/final_physics.py": "44002c33c7c22b9fd948013db37cf55311d10c8c56b22723eef48f16b63fb410",
+      "source_snapshot/src/nonlinear_hall/io.py": "6808fe07f18ed2cb56b8c57e9f16e4c7ddfc5658d6d567542bd21c1d8b16f928",
+      "source_snapshot/src/nonlinear_hall/mode_ablation.py": "85f935cfedbed3aa7032319039066bd12af534cd263a31081f7e5728019719d3",
+      "source_snapshot/src/nonlinear_hall/referee_numerics.py": "0c6e8e81d7cddda8997c1eb1b3e090789d3c6788f4ecc6f06c14cac548b0ffc6",
+      "validation/final_validation_summary.csv": "26dce2a43f91580b14c7e40b6635f0f70848458dbdfbbcee737bf404fca4891d"
+    },
+    "peak_rss_bytes": 324550656,
+    "positive_points": 3510,
+    "principal_points": 3600,
+    "run_id": "20260919T021436Z-40be24e6",
+    "source_hashes": {
+      "config/mode_ablation.json": "19bf53afd97f1353d1382a4713a0e3182722fb1c0f7b5b11f7cc774174bf157d",
+      "data/final_physics/manifests/run.json": "18edcbb50fba33323527be105ba04a8d4a78908d65faa6b116d773a4a0d52d35",
+      "data/revision/manifests/run.json": "27758553e678547bd17e5ff9cb64a3ab674f11764c90fcb124929e5866876a9c",
+      "docs/final_revision_plan.md": "7727f18b1ec2c719ed02da04561e6fd0191a20f07c92b7d7720576a3a689228f",
+      "scripts/mode_ablation_calculate.py": "62bc24fdc8fdf4b12a19e8b8b4322879e7a25b8b94d2c32e2135540e1d98bf22",
+      "src/nonlinear_hall/core.py": "69c9a7a5bdf844a635b7ad846cb933bc160b6bb1ab7e06bea845b98f6864fd32",
+      "src/nonlinear_hall/final_physics.py": "44002c33c7c22b9fd948013db37cf55311d10c8c56b22723eef48f16b63fb410",
+      "src/nonlinear_hall/io.py": "6808fe07f18ed2cb56b8c57e9f16e4c7ddfc5658d6d567542bd21c1d8b16f928",
+      "src/nonlinear_hall/mode_ablation.py": "85f935cfedbed3aa7032319039066bd12af534cd263a31081f7e5728019719d3",
+      "src/nonlinear_hall/referee_numerics.py": "0c6e8e81d7cddda8997c1eb1b3e090789d3c6788f4ecc6f06c14cac548b0ffc6"
+    },
+    "source_run": "20260918T215035Z-4260f56e",
+    "status": "complete",
+    "validation_checks": 25733,
+    "wall_seconds": 18.852684458000112
+  },
+  "selected_files": [
+    {
+      "source": "src/nonlinear_hall/core.py",
+      "path": "src/nonlinear_hall/core.py",
+      "sha256": "69c9a7a5bdf844a635b7ad846cb933bc160b6bb1ab7e06bea845b98f6864fd32",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/referee_numerics.py",
+      "path": "src/nonlinear_hall/referee_numerics.py",
+      "sha256": "0c6e8e81d7cddda8997c1eb1b3e090789d3c6788f4ecc6f06c14cac548b0ffc6",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/final_physics.py",
+      "path": "src/nonlinear_hall/final_physics.py",
+      "sha256": "44002c33c7c22b9fd948013db37cf55311d10c8c56b22723eef48f16b63fb410",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/mode_ablation.py",
+      "path": "src/nonlinear_hall/mode_ablation.py",
+      "sha256": "85f935cfedbed3aa7032319039066bd12af534cd263a31081f7e5728019719d3",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/mode_ablation_figures.py",
+      "path": "src/nonlinear_hall/mode_ablation_figures.py",
+      "sha256": "75278efae1d64ab1c4eb473e4de68a9fb8a84e6d83eee933a886c160eaaffa54",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/io.py",
+      "path": "src/nonlinear_hall/io.py",
+      "sha256": "6808fe07f18ed2cb56b8c57e9f16e4c7ddfc5658d6d567542bd21c1d8b16f928",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/manuscript_numerics.py",
+      "path": "src/nonlinear_hall/manuscript_numerics.py",
+      "sha256": "e7d4f31eb45f7b863f1216ba958c9838e76c0361a0103c4d2d8110ccef659de1",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/validation.py",
+      "path": "src/nonlinear_hall/validation.py",
+      "sha256": "f1293f90f933d904ec2ffdc675d6dddee02f1c04833344f2bc52111cf9e2f1a0",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "src/nonlinear_hall/__init__.py",
+      "path": "src/nonlinear_hall/__init__.py",
+      "sha256": "e71048e9a93977aa471485c82028ada2468ab36154c8c2d0ed846e1891cf32aa",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "tests/test_physics.py",
+      "path": "tests/test_physics.py",
+      "sha256": "4b07d878feb5f1bbf3c525f1b80b6a9bcf42c7bdb39b963605625c22141abb14",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "tests/test_manuscript.py",
+      "path": "tests/test_manuscript.py",
+      "sha256": "1c46920c93cf261cd3e53dccc9b86d331fa4a0c979a3d89a2b2779c096f4491a",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "tests/test_referee_revision.py",
+      "path": "tests/test_referee_revision.py",
+      "sha256": "40a4d60ec9bb8ac61901c71f1fe6892a6cdb1c5c420b7ed6cb9a7ce3f4a5c48a",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "tests/test_final_physics.py",
+      "path": "tests/test_final_physics.py",
+      "sha256": "23c03e712a8d667b66163c4fac3c9b855ede057f4f9fa274fd64eb495a685c6d",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "tests/test_mode_ablation.py",
+      "path": "tests/test_mode_ablation.py",
+      "sha256": "a4003130d526b8a4a97eada638ad13fc6268bba0a5ebfbf3b5b5bc9055503b2d",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "LICENSE",
+      "path": "LICENSE",
+      "sha256": "7d1a9560f0ebc3ccff7fa5ba8368b661a67a3fd25934ecbbf28e2e5e8a76099d",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "CITATION.cff",
+      "path": "CITATION.cff",
+      "sha256": "9bb33a9902da689612c8a1e878d153526ffb38362ce61a12978a6789dd06c655",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "pyproject.toml",
+      "path": "pyproject.toml",
+      "sha256": "fe00aa7a3e04c53a9db8bc4656f0bde60e78ddce0365c69fccaafb9ee479a329",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "requirements-lock.txt",
+      "path": "requirements-lock.txt",
+      "sha256": "d56438db219513ede5856fcbd2b4dec62966f6340890f27fc3a836efc8602eae",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "HUMAN_TODO.md",
+      "path": "HUMAN_TODO.md",
+      "sha256": "5663f9542990aa972765d5fce4d7aa2ecd3ec3e503f14c0846a73f30ed876ec2",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/main.tex",
+      "path": "manuscript/main.tex",
+      "sha256": "33a3f913b7666615d18dcb5514a24994205d5a75760aa0482abeef701adddf28",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/references.bib",
+      "path": "manuscript/references.bib",
+      "sha256": "aec2965e71d30197748bff011138e739618ec134c2bac79f76f620c4ab028bd9",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "supplement/supplement.tex",
+      "path": "supplement/supplement.tex",
+      "sha256": "5580d8bc7c116e6cc99f2e7167515b630503c246af26fca2e3b831ddb6a08df9",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "supplement/generated/mode_ablation_tables.tex",
+      "path": "supplement/generated/mode_ablation_tables.tex",
+      "sha256": "35d732e94ddb80fd42fed2ed08c562eb0a719e02489ffdbbace429bbb936d2dc",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/model.tex",
+      "path": "manuscript/sections/model.tex",
+      "sha256": "2dad209a18ffc0267f99e2694e221cc72069e0c18fc316a7979210ea43342e35",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/decomposition.tex",
+      "path": "manuscript/sections/decomposition.tex",
+      "sha256": "be09538ef2058196a0b75dd741a1061fc2b14bd7515ffc53d59724a0e2f522a1",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/discussion.tex",
+      "path": "manuscript/sections/discussion.tex",
+      "sha256": "3f7dc39ab5799676775762a19df1417dca158c7da1fd882c7a40799707364c63",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/conclusion.tex",
+      "path": "manuscript/sections/conclusion.tex",
+      "sha256": "49800671d73c2e31ff9f39cc445759583b1f8fe21baf8719ec0ef24c8ff4ed40",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/theory.tex",
+      "path": "manuscript/sections/theory.tex",
+      "sha256": "8d86d0a99510f6781cf520958d3b6895d1f9dc9dbb6c8a2fea2d39593a5dd8f4",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/results.tex",
+      "path": "manuscript/sections/results.tex",
+      "sha256": "69efc5f4197df4f4e2a7aea8f67aa53a841c93925a9e93bdc839dc4e2754c29c",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/sections/introduction.tex",
+      "path": "manuscript/sections/introduction.tex",
+      "sha256": "a7a0fccdbd254e1fac98bd7b1403e0d6ee4eb6a3fc7ab027c22a8fdfb32f4ca5",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "manuscript/generated/revision_claims.tex",
+      "path": "manuscript/generated/revision_claims.tex",
+      "sha256": "5b35e59b4d164343e73ecd3b5d21d32c2bf9ba16f6928d2ed12a3145862caf5f",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_basis_transformation.csv",
+      "path": "data/processed/final_basis_transformation.csv",
+      "sha256": "9e1b275dd905c6676ebc9c7edb48797db3fedf64de0b9635350e88cc212f3663",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_cancellation_statistics.csv",
+      "path": "data/processed/final_cancellation_statistics.csv",
+      "sha256": "a90da2b966ff0186bfd323160c3d57246520b9c953b982d61f7e119763c87bbd",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_invariant_subspace_residual.csv",
+      "path": "data/processed/final_invariant_subspace_residual.csv",
+      "sha256": "983971cb2789609610c0d4cd026d675d371ca0d15d2104b72b63dee38e13a754",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_leakage_error_correlations.csv",
+      "path": "data/processed/final_leakage_error_correlations.csv",
+      "sha256": "629d426a1ba5285ba38dec11c9fea2ab9841efa0f2c863a09199663437d85e46",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_leakage_spectrum.csv",
+      "path": "data/processed/final_leakage_spectrum.csv",
+      "sha256": "71c248c5882ae6463306e7677dde34e9ba9828a212ce33d1336d933840e97fb7",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_leakage_summary.csv",
+      "path": "data/processed/final_leakage_summary.csv",
+      "sha256": "92a4914e3088fb6b0c3c5281175b6ec49fc58d34270dce3052edd19c4245a450",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_mass_scaling.csv",
+      "path": "data/processed/final_mass_scaling.csv",
+      "sha256": "b0ae701e5c570a35d0a28a73f7bdd0ad00337c8344906e00047563ff0778feea",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_mode_ablation.csv",
+      "path": "data/processed/final_mode_ablation.csv",
+      "sha256": "23d7534de0c539eb589c669f1419f3b1a86f3f5361075495a2ba603583036d7b",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_mode_characterization.csv",
+      "path": "data/processed/final_mode_characterization.csv",
+      "sha256": "de8dbb99913279850a56bc8e9c45e7f6042bb4ff27e711d1db8fd280bf8bc2f3",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_mode_decision_agreement.csv",
+      "path": "data/processed/final_mode_decision_agreement.csv",
+      "sha256": "27cdeb596c8d1eddb3e898989a960b8377b2a5189a34036f56e5ae93ad7b8f37",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_reduced_mode_coefficients.csv",
+      "path": "data/processed/final_reduced_mode_coefficients.csv",
+      "sha256": "aa748bd68ecd7e2ec1693981770a57362b144542ab60b8793708b4c9dbf7b72e",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_reduced_model_validation.csv",
+      "path": "data/processed/final_reduced_model_validation.csv",
+      "sha256": "dafc551c86068c3d9b92c02c58d8000b210c0b45e87951f4e56792788498f4a4",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "processed/final_tolerance_cancellation.csv",
+      "path": "data/processed/final_tolerance_cancellation.csv",
+      "sha256": "8a1bce731f934ff299ec166bb0a13064904fe3b990b994041cede12b81f99782",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/processed/internal_structure_robustness.csv",
+      "path": "data/processed/internal_structure_robustness.csv",
+      "sha256": "172023f8445fe7a8b184284bb2826410cd1a9093b3d01fb26175a9f3b6efd73d",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/validation/gauge_invariance.csv",
+      "path": "data/processed/gauge_invariance.csv",
+      "sha256": "9dfd9f793f6ae9c7d5e401c95e5f4e5d93d7971c9ee474ba0f0306ddd2cac534",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/processed/certificate_decision_utility.csv",
+      "path": "data/processed/certificate_decision_utility.csv",
+      "sha256": "5c0375c30eed7c66dece89897acdb56e20bb210b602b29a695e41d8fe90223ac",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/processed/weak_coupling_remainder.csv",
+      "path": "data/processed/weak_coupling_remainder.csv",
+      "sha256": "b6bd33e65bdf93949d38bf143f9b283231a25f704000514bd8e6504bb99576b3",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/processed/weak_coupling_intervals.csv",
+      "path": "data/processed/weak_coupling_intervals.csv",
+      "sha256": "99b48d226a16a89804a407091a3791dce5abf064ac7b60cc0f1dcd6dcda8f550",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/processed/reduction_cost_benchmark.csv",
+      "path": "data/processed/reduction_cost_benchmark.csv",
+      "sha256": "c32bb936f9d5562bf39a65e9089d3ddd20d71447d4f5ca684f942541c40614bc",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/convergence/successive_resolution.csv",
+      "path": "data/processed/successive_resolution.csv",
+      "sha256": "60a3e8d66b51078916321d05041f8cfcdafc480481398988fec6f3b4d5bba602",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "entire file"
+    },
+    {
+      "source": "data/revision/processed/measurement_level_omission.csv",
+      "path": "data/processed/measurement_level_omission.csv",
+      "sha256": "6093dc829754fa5e43eef41fdfc1713c60be37ea58475a38805c5f9d5b44be80",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "sample != 'principal-map'; all columns, original decimal strings"
+    },
+    {
+      "source": "validation/final_validation_summary.csv",
+      "path": "validation/final_validation_summary.csv",
+      "sha256": "26dce2a43f91580b14c7e40b6635f0f70848458dbdfbbcee737bf404fca4891d",
+      "run_id": "20260919T021436Z-40be24e6",
+      "selection": "group by check; count, maximum, common threshold, all passed"
+    },
+    {
+      "source": "data/revision/convergence/principal_map_convergence.csv",
+      "path": "data/processed/final_convergence_summary.csv",
+      "sha256": "f295d00860e2602e362a729612fc31041466cbe5abf9d4e9bf9e9f321c88ed01",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "aggregate by observable, metric, threshold; count and maximum of all original rows"
+    },
+    {
+      "source": "data/revision/convergence/robustness_convergence.csv",
+      "path": "data/processed/final_convergence_summary.csv",
+      "sha256": "a47aca3d85d12f100d2eaffb70d2ba311dff95a4b3520d1c41559e5268eeefe3",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "aggregate by observable, metric, threshold; count and maximum of all original rows"
+    },
+    {
+      "source": "data/revision/convergence/weak_control_convergence.csv",
+      "path": "data/processed/final_convergence_summary.csv",
+      "sha256": "9f08c5ea8bf050f4ea85bf5c68b789955f74e97085703a164a19c953de175ff6",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "aggregate by observable, metric, threshold; count and maximum of all original rows"
+    },
+    {
+      "source": "data/revision/processed/hall_correction_decomposition.csv",
+      "path": "data/processed/final_physical_validation_summary.csv",
+      "sha256": "b2c21dd9c660cf33200a0e53831779ea21185b1c72ede3dd306ca3935598033c",
+      "run_id": "20260917T094513Z-083977ff",
+      "selection": "all principal rows; extrema by named field; all validity flags True"
+    }
+  ]
+}

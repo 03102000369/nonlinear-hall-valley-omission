@@ -1,0 +1,38 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[letterpaper,margin=0.72in,columnsep=0.24in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,bm,graphicx,booktabs,microtype}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage[font=small,labelfont=bf]{caption}
+\setlength{\emergencystretch}{1.5em}
+\renewcommand{\dbltopfraction}{0.92}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\dblfloatpagefraction}{0.65}
+\makeatletter
+\renewcommand{\maketitle}{\begin{center}\LARGE\@title\end{center}\vspace{0.5em}}
+\makeatother
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\dd}{\mathrm{d}}
+\hypersetup{pdftitle={When Can Hall-Silent Valleys Be Neglected in Anomalous-Velocity Nonlinear Hall Transport?},pdfauthor={}}
+\title{When Can Hall-Silent Valleys Be Neglected in\\Anomalous-Velocity Nonlinear Hall Transport?}
+\author{}\date{}
+\begin{document}
+\raggedbottom
+\twocolumn[\begin{@twocolumnfalse}\maketitle
+\begin{abstract}
+A conducting valley with zero direct Berry-curvature Hall weight can still alter the occupation of Hall-active valleys through collisions. We determine when such a sector may be omitted from the anomalous-velocity nonlinear Hall response of a four-valley semiclassical model. Exact sector elimination and a physical hierarchy resolve active reference current, active valley distortion, passive current and passive valley polarization. Contact disorder leaves their four-dimensional space invariant, with three driven amplitudes sufficient in the massless passive limit. Finite-range disorder produces leakage whose observable effect depends on omitted drive, relaxation and signed Hall sensitivity. Four modes reproduce the Hall response within 0.36\% on the tested positive-coupling map. Safe sector omission remains observable and tolerance dependent: at a 1\% Hall tolerance, 40.50\% of safe positive-coupling points depend on favorable cancellation under a fixed-budget test. Finite passive curvature adds direct valley-population readout that can dominate even without intersector coupling. These results explain omission decisions within the specified anomalous-velocity channel, without asserting a complete nonlinear Hall conductivity or a universal material threshold.
+\end{abstract}\vspace{0.5em}\end{@twocolumnfalse}]
+\input{sections/introduction.tex}
+\input{sections/theory.tex}
+\input{sections/decomposition.tex}
+\input{sections/model.tex}
+\input{sections/results.tex}
+\input{sections/discussion.tex}
+\input{sections/conclusion.tex}
+\section*{Data and code availability}
+The accompanying package contains the numerical sources, processed responses, physical-mode ablations, leakage diagnostics and figure inputs. The command \texttt{make reproduce-core} reconstructs the principal response map and targeted analyses; \texttt{make paper} verifies inputs and builds both documents. Complete data definitions and fingerprints are supplied in \texttt{DATA\_MANIFEST.md}.
+{\small\setlength{\bibsep}{2pt}\bibliographystyle{unsrtnat}\bibliography{references}}
+\end{document}
